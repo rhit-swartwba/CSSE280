@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Selectors</title>
+<style> 
+    /* * {
+        background: yellow;
+    } */
+    /* all elements */
+
+    /* p {
+        background: yellow;
+    } */
+    /* all p elements */
+    /* p.intro {
+        background: yellow;
+    } */
+    /* all p elements with class intro */
+
+    /* p, h1 {
+        background: yellow;
+    } */
+    /* all p and h1 elements */
+
+    /* div p {
+        background: yellow;
+    } */
+    /* all p elements inside of div */
+    
+     /* div > p {
+        background: yellow;
+    }  */
+    /* first immediate p child inside div */
+
+    /* div + p {
+        background: yellow;
+    } */
+    /* the first p element after the closing div */
+
+    div ~ p {
+        background: yellow;
+    }
+    /* any p element directly after div */
+
+    /* div[class^="test"] {
+        background-color: lightgreen;
+    }
+    all div with class that starts with the word test are selected */ 
+
+    /* div[class$="test"] {
+        background-color:lightgreen;
+    }
+    all div elements with class that have test at the end */
+
+    /* div[class*="test"] {
+        background-color:lightgreen;
+    }
+    all div elements with class that have test in the name */
+
+    div[class~="test"] {
+        background-color:green;
+    }
+    /* all div elements with the exact name searching for */
+
+
+
+</style>
+</head>
+<body>
+<h1>CSS Selectors: Elements</h1>
+<div class="first_test">The first div element: first_test</div>
+<div class="second">The second div element: second</div>
+<div class="test">The third div element: test</div>
+<div class="test_ex">The fourth div element: test_ex</div>
+<div class="tests">The fifth div element: tests</div>
+<p class="test">This is a paragraph:  test</p>
+<p class="test_ex">This is a paragraph: test_ex</p>
+
+
+<div>First div
+<ul>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ul>
+<p class="intro"> Paragraph inside div after List </p>
+</div>
+
+
+<div>Second div </div>
+<p>Paragraph 1 after Div </p>
+<p>Paragraph 2 after Div </p>
+
+
+<div>Third div
+<section> Section inside div
+<p>Paragraph 1 inside section which is inside div</p>
+<p>Paragraph 2 inside section which is inside div</p>
+</section>
+</div>
+
+
+<h1>CSS Selectors: Attributes</h1>
+</body>
+</html>
