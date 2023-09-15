@@ -1,0 +1,55 @@
+body {
+    background: gray;
+}
+
+.page-container {
+    margin-top: 25px;
+}
+
+.button-group {
+    text-align: center;
+}
+
+.button-group > button {
+    font-size: 1.5em;
+    background: darkred;
+    color: white;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#counterText {
+    color: black;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 3em;
+    text-align: center;
+}
+
+#textColorBox {
+    background-color: black;
+    line-height: 100px;
+    width: 200px;
+    text-align: center;
+    color: white;
+    margin: 20px;
+}
+.button-group2 {
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 3em;
+}
+
+#redButton {
+    background-color: red;
+}
+
+#blueButton {
+    background-color: blue;
+}
+
+#purpleButton {
+    background-color: purple;
+}
+
+#orangeButton {
+    background-color: orange;
+}
