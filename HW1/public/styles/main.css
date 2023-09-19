@@ -14,6 +14,8 @@ body {
     font-size: 1.5em;
     background: darkred;
     color: white;
+    margin-right: 3dvh;
+    margin-left: 3dvh;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
