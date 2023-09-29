@@ -73,3 +73,38 @@ for(const num of numbers)
 console.log(sum);
 
 console.log();
+
+//8
+
+const temperatures = [32,68,75,82,56];
+temperatures.forEach(convertToCel);
+
+function convertToCel(faren) {
+    console.log((faren-32)* (5/9));
+}
+
+console.log();
+
+//9
+const cities = ["New York", "Los Angeles", "Chicago", "Houston"];
+const populations = {"New York": 8398748, "Los Angeles": 3990456, "Chicago": 2705994, "Houston": 2320268}
+cities.forEach(getPopulation);
+
+function getPopulation(city) {
+    console.log(populations[city]);
+}
+
+console.log();
+
+//10
+print = "";
+for(let k = 0; k < 5; k++)
+{
+    for(let i = 0; i <= k; i++)
+    {
+        print += "*";
+    }
+    print += "\n";
+}
+
+console.log(print);
